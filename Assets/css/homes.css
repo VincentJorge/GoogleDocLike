@@ -1,0 +1,124 @@
+header{
+	background-color: #FFFFFF;
+	color: #7f8c8d;
+	padding-bottom: 0;
+	border-bottom: 1px solid #bdc3c7;
+}
+h1{
+	margin-left: 300px;
+	font-size: 14px;
+	font-weight: bold;
+	float: left;
+}
+.upload{
+	margin-top: 40px;
+}
+.center{
+	text-align: center;
+	height: 40px;
+	margin-top: 20px;
+}
+.submit{
+	margin-top: 10px;
+}
+#menu-demo2{
+	margin-top: 15px;
+	margin-right: 300px;
+	font-weight: bold;
+}
+#menu-demo2, #menu-demo2 ul{
+padding:0;
+list-style:none;
+text-align:center;
+float: right;
+
+}
+#menu-demo2 li{
+display:inline-block;
+position:relative;
+}
+#menu-demo2 ul li{
+display:inherit;
+border: 1px solid #bdc3c7;
+}
+#menu-demo2 ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+#menu-demo2 li:hover ul{
+max-height:15em;
+}
+#menu-demo2 ul:nth-child(2){
+	margin-top: 10px;
+}
+
+/* background des liens menus */
+#menu-demo2 li:first-child{
+background-color: #FFFFFF;
+background-image:-webkit-linear-gradient(top, #FFFFFF 100%);
+background-image:linear-gradient(to bottom, #FFFFFF 100%);
+}
+#menu-demo2 li:nth-child(2){
+background-color: #FFFFFF;
+background-image: -webkit-linear-gradient(top, #FFFFFF 100%);
+background-image:linear-gradient(to bottom, #FFFFFF 100%);
+}
+#menu-demo2 li:nth-child(3){
+background-color: #FFFFFF;
+background-image:-webkit-linear-gradient(top, #FFFFFF 100%);
+background-image:linear-gradient(to bottom, #FFFFFF 100%);
+}
+#menu-demo2 li:last-child{
+background-color: #FFFFFF;
+background-image:-webkit-linear-gradient(top, #FFFFFF 100%);
+background-image:linear-gradient(to bottom, #FFFFFF 100%);
+}
+/* background des liens sous menus */
+#menu-demo2 li:first-child li{
+background:#FFFFFF;
+}
+#menu-demo2 li:nth-child(2) li{
+background:#FFFFFF;
+}
+#menu-demo2 li:nth-child(3) li{
+background:#FFFFFF;
+}
+#menu-demo2 li:last-child li{
+background:#FFFFFF;
+}
+/* les a href */
+#menu-demo2 a{
+text-decoration:none;
+display:block;
+padding:2px 32px;
+color: #7f8c8d;
+font-family:arial;
+}
+#menu-demo2 ul a{
+padding:8px 0;
+}
+#menu-demo2 li:hover li a{
+color:#7f8c8d;
+text-transform:inherit;
+}
+#menu-demo2 li:hover a, #menu-demo2 li li:hover a{
+color:#7f8c8d;
+}
+.img{
+	height: 500px;
+	width: 500px;
+}
+.bord{
+	border: 1px solid black;
+	margin: 0 auto;
+}
+.marg{
+	margin-left: 150px;
+}
